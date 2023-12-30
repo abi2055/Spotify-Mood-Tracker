@@ -9,11 +9,11 @@ def save_to_json(data):
         json.dump(data, f, ensure_ascii=False, indent=1)
 
 app = Flask(__name__)
-app.secret_key = '53d355f8-571a-4590-a310-1f9579440851'
+app.secret_key = 'YOUR_SECRET KEY'
 store_artist = []
 
 CLIENT_ID = 'b0dbe6cff93d4d5eb182253a5f1a7fc2'
-CLIENT_SECRET = '449a5d6926314376a9da36c5e67ea512'
+CLIENT_SECRET = 'CLIENT_SECRET_KEY'
 REDIRECT_URI = 'http://localhost:5000/callback'
 
 AUTH_URL = 'https://accounts.spotify.com/authorize'
