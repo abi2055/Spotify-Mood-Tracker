@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt 
-import subprocess
 
 def find_mood():
     happy = 0
     sad = 0
     with open('recent_genres.txt', 'r') as file:
         for line in file:
+            happy = 0
+            sad = 1
             line = line.strip()
             if "hip hop" in line or "rap" in line:
                 happy = happy + 1
