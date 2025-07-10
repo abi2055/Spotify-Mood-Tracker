@@ -35,6 +35,6 @@ A web-based application that connects to a user's Spotify account using **OAuth 
 
 ---
 
-> ⚠️ **Note**: Be sure to replace `CLIENT_ID`, `CLIENT_SECRET`, and `app.secret_key` with your own Spotify Developer credentials.
+**Note**: Be sure to replace `CLIENT_ID`, `CLIENT_SECRET`, and `app.secret_key` with your own Spotify Developer credentials.
 
 ![Example Visualization](https://github.com/user-attachments/assets/4b8ea525-b70f-4f5c-aaa3-7ff6f7c02047)
